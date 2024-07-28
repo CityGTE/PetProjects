@@ -16,7 +16,7 @@ public class Book {
     private int id;
 
     @NotEmpty(message = "Название книги не должно быть пустым")
-    @Size(min = 2, max = 100, message = "Название книг должно быть от 2 до 100 символов")
+    @Size(min = 2, max = 100, message = "Название книги должно быть от 2 до 100 символов")
     @Column(name = "title")
     private String title;
 
